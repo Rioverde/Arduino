@@ -1,0 +1,6 @@
+Serial.begin(9600)      //We give a speed between Computer and Arduino, 9600 is optimize one
+Serial.println("Hello")     //printing text function 
+Serial.println(millis())        //print us milliseconds
+delay(1000)                     //gives us a pause for 1 sec
+digitalWrite(4, HIGH);          //gives high voltage to pin number 5
+buttonState = digitalRead(7);       //reads button as digital INPUT device under pin #7
