@@ -4,3 +4,8 @@ Serial.println(millis())        //print us milliseconds
 delay(1000)                     //gives us a pause for 1 sec
 digitalWrite(4, HIGH);          //gives high voltage to pin number 5
 buttonState = digitalRead(7);       //reads button as digital INPUT device under pin #7
+Serial.print(analogRead(A0));           //Will print you reading to serial monitor
+analogWrite()                           //
+mapp(Value, 0, 1023, 0, 255)            //convert ranges
+
+Use ~6 to flactuate signal PWM
